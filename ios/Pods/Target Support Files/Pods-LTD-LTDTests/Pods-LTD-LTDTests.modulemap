@@ -1,0 +1,6 @@
+module Pods_LTD_LTDTests {
+  umbrella header "Pods-LTD-LTDTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

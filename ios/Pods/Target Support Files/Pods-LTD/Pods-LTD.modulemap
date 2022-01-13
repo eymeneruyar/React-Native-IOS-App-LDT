@@ -1,0 +1,6 @@
+module Pods_LTD {
+  umbrella header "Pods-LTD-umbrella.h"
+
+  export *
+  module * { export * }
+}
