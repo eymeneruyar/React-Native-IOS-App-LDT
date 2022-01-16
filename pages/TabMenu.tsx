@@ -1,10 +1,21 @@
 import React,{useState} from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Profile from './Profile';
 import AddNotes from './AddNotes';
 import Home from './Home';
+import { Image } from 'react-native';
 
+function LogoTitle() {
+    return (
+      <Image
+        style={{ resizeMode:'contain',aspectRatio: 2}}
+        source={require('../assets/image/logo.png')}
+      />
+    );
+}
 
 export default function TabMenu() {
 
@@ -21,10 +32,12 @@ export default function TabMenu() {
                 name="Home"
                 component={Home}
                 options={{
-                tabBarLabel: 'Home',
-                tabBarIcon: ({ color, size }) => (
-                    <FontAwesome name="home" color={color} size={size} />
-                  ),
+                    tabBarLabel: 'Home',
+                    headerTitle: (props) => <LogoTitle {...props} />,
+                    //headerLeft: 
+                    tabBarIcon: ({ color, size }) => (
+                        <FontAwesome name="home" color={color} size={size} />
+                    ),
                 }}
             />
             <Tab.Screen

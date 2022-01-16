@@ -27,12 +27,12 @@ export default function Register() {
         <View style={registerStyle.container}>
             <ScrollView>
 
-            <View style={loginStyles.image}>
-                <FontAwesome
-                name='user-circle-o'
-                size={100}
-                color={'#000'}
-                />
+                <View style={loginStyles.image}>
+                    <FontAwesome
+                    name='user-circle-o'
+                    size={100}
+                    color={'#000'}
+                    />
                 </View>
 
                 <Fumi
