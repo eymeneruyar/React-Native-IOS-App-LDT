@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/eymeneruyar/LDT">
     <img src="images/logo.png" alt="Logo" style="background-color:white" width="200" height="80">
   </a>
 
@@ -10,7 +10,7 @@
   <p align="center">
     A great app for keeping your notes!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/eymeneruyar/LDT"><strong>Explore the docs »</strong></a>
     <br />
   </p>
 </div>
