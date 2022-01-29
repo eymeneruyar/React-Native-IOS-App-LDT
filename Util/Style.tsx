@@ -89,19 +89,56 @@ export const loginStyles = StyleSheet.create({
         flex: 1,
         justifyContent: 'flex-start',
         paddingTop: statusBarHeight - 70 ,
-        padding: 8,
+        padding: 10,
         backgroundColor: mainThemeBackgrounColor
-    }
+    },
+    title:{
+        fontFamily: 'Arial',
+        fontSize: 20,
+        fontWeight: 'bold',
+    },
+    subTitle:{
+        fontFamily: 'Arial',
+        fontSize: 15,
+        fontWeight: 'bold',
+        marginTop: 5,
+        marginBottom: 5,
+    },
+    pinnedContainer:{
+        backgroundColor: '#E4E6EB',
+        padding: 10,
+        paddingBottom: 10,
+    },
+    noteTitle:{
+        fontFamily: 'Arial',
+        fontSize: 15,
+    },
   })
 
   export const addNotes = StyleSheet.create({
     container:{
         flex: 1,
         justifyContent: 'flex-start',
-        paddingTop: statusBarHeight - 70 ,
-        padding: 8,
+        padding: 10,
         backgroundColor: mainThemeBackgrounColor
-    }
+    },
+    selectPicker:{
+        backgroundColor: '#000',
+    },
+    noteTitle:{
+        fontFamily: 'Arial',
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginTop:10,
+        marginBottom:10,
+    },
+    noteBox:{
+        borderWidth:2,
+        borderColor: '#000',
+        borderBottomRightRadius: 25,
+        borderBottomLeftRadius: 25,
+        height: 450,
+    },
   })
 
   export const profileStyle = StyleSheet.create({

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "66F7368D6FA7A4D0201A5407AF510769"
-               BuildableName = "libPods-LTD-LTDTests.a"
-               BlueprintName = "Pods-LTD-LTDTests"
+               BlueprintIdentifier = "8D18C49071FC5370C25F5758A85BA5F6"
+               BuildableName = "libreact-native-webview.a"
+               BlueprintName = "react-native-webview"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

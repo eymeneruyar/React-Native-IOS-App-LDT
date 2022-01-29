@@ -3,11 +3,9 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
-target 'LTD' do
+target 'LDT' do
   config = use_native_modules!
-
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
-
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
 
   use_react_native!(
     :path => config[:reactNativePath],
@@ -15,7 +13,7 @@ target 'LTD' do
     :hermes_enabled => false
   )
 
-  target 'LTDTests' do
+  target 'LDTTests' do
     inherit! :complete
     # Pods for testing
   end

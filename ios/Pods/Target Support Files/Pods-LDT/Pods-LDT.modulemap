@@ -1,0 +1,6 @@
+module Pods_LDT {
+  umbrella header "Pods-LDT-umbrella.h"
+
+  export *
+  module * { export * }
+}

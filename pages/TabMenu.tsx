@@ -1,12 +1,11 @@
 import React,{useState} from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Profile from './Profile';
 import AddNotes from './AddNotes';
 import Home from './Home';
-import { Image } from 'react-native';
+import { Image, TouchableOpacity,View } from 'react-native';
+import { Icon } from 'react-native-elements/dist/icons/Icon';
 
 function LogoTitle() {
     return (
@@ -17,7 +16,22 @@ function LogoTitle() {
     );
 }
 
-export default function TabMenu() {
+function ButtonMenu(navigation:any){
+    return (
+        <TouchableOpacity onPress={(e) => navigation.navigate('login')}>
+            <View style={{marginRight:10}}>
+                <Icon
+                    name='sign-out'
+                    type='font-awesome'
+                    size={30}
+                />
+            </View>
+            
+        </TouchableOpacity>
+    )
+}
+
+export default function TabMenu({ navigation }: any) {
 
     const Tab = createBottomTabNavigator();
 
@@ -34,7 +48,6 @@ export default function TabMenu() {
                 options={{
                     tabBarLabel: 'Home',
                     headerTitle: (props) => <LogoTitle {...props} />,
-                    //headerLeft: 
                     tabBarIcon: ({ color, size }) => (
                         <FontAwesome name="home" color={color} size={size} />
                     ),
@@ -44,20 +57,25 @@ export default function TabMenu() {
                 name="Add Notes"
                 component={AddNotes}
                 options={{
-                tabBarLabel: 'Add Notes',
-                tabBarIcon: ({ color, size }) => (
-                    <FontAwesome name="plus" color={color} size={size} />
-                  ),
+                    tabBarLabel: 'Add Notes',
+                    headerTitle: (props) => <LogoTitle {...props} />,
+                    tabBarIcon: ({ color, size }) => (
+                        <FontAwesome name="plus" color={color} size={size} />
+                    ),
                 }}
             />
             <Tab.Screen
                 name="Profile"
                 component={Profile}
                 options={{
-                tabBarLabel: 'Profile',
-                tabBarIcon: ({ color, size }) => (
-                    <FontAwesome name="user-circle-o" color={color} size={size} />
-                  ),
+                    tabBarLabel: 'Profile',
+                    headerRight: () => (
+                        ButtonMenu(navigation)
+                    ),
+                    headerTitle: (props) => <LogoTitle {...props} />,
+                    tabBarIcon: ({ color, size }) => (
+                        <FontAwesome name="user-circle-o" color={color} size={size} />
+                    ),
                 }}
             />
         </Tab.Navigator>

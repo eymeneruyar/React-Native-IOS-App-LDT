@@ -1,0 +1,6 @@
+module Pods_LDT_LDTTests {
+  umbrella header "Pods-LDT-LDTTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
