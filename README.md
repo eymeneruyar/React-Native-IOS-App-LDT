@@ -44,12 +44,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://github.com/eymeneruyar/LDT/blob/main/images/1.png"><img src="images/1.png" alt="Login Screen" width="155" style="max-width:100%;"></a>
-<a href="https://github.com/eymeneruyar/LDT/blob/main/images/2.png"><img src="images/2.png" alt="Register Screen" width="155" style="max-width:100%;"></a>
-<a href="https://github.com/eymeneruyar/LDT/blob/main/images/3.png"><img src="images/3.png" alt="Home Screen" width="155" style="max-width:100%;"></a>
-<a href="https://github.com/eymeneruyar/LDT/blob/main/images/4.png"><img src="images/4.png" alt="Add Note Screen" width="155" style="max-width:100%;"></a>
-<a href="https://github.com/eymeneruyar/LDT/blob/main/images/5.png"><img src="images/5.png" alt="Profile Screen" width="155" style="max-width:100%;"></a>
-<a href="https://github.com/eymeneruyar/LDT/blob/main/images/6.png"><img src="images/6.png" alt="Change Password Screen" width="155" style="max-width:100%;"></a>
+<a href="https://github.com/eymeneruyar/LDT/blob/main/images/1.png"><img src="images/1.png" alt="Login Screen" width="150" style="max-width:100%;"></a>
+<a href="https://github.com/eymeneruyar/LDT/blob/main/images/2.png"><img src="images/2.png" alt="Register Screen" width="150" style="max-width:100%;"></a>
+<a href="https://github.com/eymeneruyar/LDT/blob/main/images/3.png"><img src="images/3.png" alt="Home Screen" width="150" style="max-width:100%;"></a>
+<a href="https://github.com/eymeneruyar/LDT/blob/main/images/4.png"><img src="images/4.png" alt="Add Note Screen" width="150" style="max-width:100%;"></a>
+<a href="https://github.com/eymeneruyar/LDT/blob/main/images/5.png"><img src="images/5.png" alt="Profile Screen" width="150" style="max-width:100%;"></a>
+<a href="https://github.com/eymeneruyar/LDT/blob/main/images/6.png"><img src="images/6.png" alt="Change Password Screen" width="150" style="max-width:100%;"></a>
 
 
 LDT application is a mobile application interface project where you can store your notes. There are 6 screens in the application; login, register, home, add note, profile, change password. The main purpose of the application is to create a secure platform where users can store their notes.
