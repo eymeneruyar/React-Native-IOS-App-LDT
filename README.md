@@ -28,16 +28,12 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -55,7 +51,7 @@
 LDT application is a mobile application interface project where you can store your notes. There are 6 screens in the application; login, register, home, add note, profile, change password. The main purpose of the application is to create a secure platform where users can store their notes.
 
 
-### Built With
+## Built With
 
 The following technologies were used while developing the LDT mobile application.
 
@@ -69,3 +65,46 @@ The following technologies were used while developing the LDT mobile application
 * [![Typescript Version](https://img.shields.io/badge/Typescript-v4.4.4-%23304ca6)](https://github.com/microsoft/TypeScript)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## Installation
+
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/eymeneruyar/LDT.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [ ] Develop the home and profile page
+- [ ] Providing API support
+- [ ] Add diffrent themes
+- [ ] Making the application more dynamic with API
+- [ ] Multi-language Support
+    - [ ] Turkish
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eymeneruyar/) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/EruyarEyup) [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eymeneruyar) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](eruyareymen@gmail.com)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
